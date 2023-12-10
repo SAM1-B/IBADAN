@@ -1,0 +1,174 @@
+body{
+    background: rgb(233, 233, 233);
+}
+
+/* HEADER */
+.header{
+    background: rgb(233, 233, 233);
+    border-bottom: 1px solid  rgb(223, 222, 222);
+}
+.header a:hover{
+   margin-bottom: 5px;
+    border-bottom: 3px solid gold;
+}
+
+/* HERO SECTION */
+.hero{
+    
+    margin-top: 130px;
+}
+
+.star{
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: -20px;
+    justify-content: center;
+    animation: star 7s linear infinite forwards;
+    
+}
+@keyframes star{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* VENUE */
+.venue{
+    background: linear-gradient(-250deg , #ca9003,#5576cf);
+}
+
+.ibadanTechExpoTxt{
+    margin-top: 120px;
+}
+/* VENUE, SPEAKER, AND TICKET HEADER UNDERLINE */
+.ven,.speakersheader,.ticketheader{
+
+    border-bottom: 3px solid rgb(240, 179, 12);
+}
+.venueImg{
+    background: url(Venue-1-38edfbf0.png);
+    background-size: cover;
+    min-height: 400px;
+}
+
+.flyCardsGroup p{
+    width:70%;;
+}
+.flyCards{
+    float: right;
+}
+
+/* CARDS */
+
+.firstCard, .secondCard, .thirdCard{
+    font-size: 12px;
+}
+
+/* MADE SECOND CARD TALLER */
+.cardsectionGroup{
+    position: relative;
+}
+.secondCard {
+    position: relative;
+    margin-top: -40px;
+}
+
+.firstCard, .secondCard, .thirdCard{
+    transition: all 2s ease;
+}
+.firstCard:hover{
+    background: green;
+    color: white;
+}
+
+.thirdCard:hover{
+    background: rgb(45, 42, 221);
+    color: white;
+}
+.ticketsSection{
+    margin-top: 120px;
+}
+/* PRIZE SECTION */
+
+.prize{
+    background: linear-gradient(-1050deg,  #132351, #132351,#132351,#132351,#c65762);
+    padding: 30px;
+    color: white;
+    width: 100%;
+    height: inherit;
+   
+}
+.prizeTxt{
+    margin-top: 100px;
+}
+
+.laptop, .watch{
+    transition: all 1s ease;
+}
+.laptop:hover{
+    transform: rotate(30deg);
+   
+}
+.watch:hover{
+    transform: rotate(-20deg);   
+}
+
+.partnerSection,.mediaPartnerSection,.communityPartnerSection {
+    margin-top: 90px;
+}
+
+
+.footer{
+    background: #132351;
+}
+.footerNav a{
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+@media(max-width:767px) {
+    .rollingStar{
+        margin-left: 200px;
+        padding: 10px 0;
+    }    
+    .ibadanTechExpoTxt{
+        margin-top: -20px;
+    }
+   
+    .button2{
+        margin-top: 20px;
+    }
+    .ticketsSection{
+        margin-top: 90px;
+    }
+
+    .flyCardsGroup p{
+         width:100%;;
+    }
+    .flyCards{
+        float: left;
+        margin-left: 70px;
+    }
+   .mediaPartnerSection,.communityPartnerSection {
+        margin-top: 20px;
+    }
+}
+
+
+@media(max-width:767px) {
+    .rollingStar{
+        margin-left: 130px;
+        padding: 10px 0;
+    }
+}
